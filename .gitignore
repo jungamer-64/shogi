@@ -1,4 +1,46 @@
 
 
+# Build directories
+build/
+cmake-build-*/
+
+# Qt generated files
+*.moc
+moc_*
+qrc_*
+ui_*
+
+# Compiled binaries
+*.exe
+*.app
+ShogiGame
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Test executables
+test_*
+
+# IDE files
+.vscode/
+.idea/
+*.pro.user*
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Debug files
+*.pdb
+
 #Ignore vscode AI rules
 .github/instructions/codacy.instructions.md
