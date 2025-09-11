@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="780" height="260" viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg">
+  <!-- Piece sprite sheet with all Shogi pieces -->
+  <!-- Each piece is 60x60 pixels -->
+  
+  <!-- Row 1: Basic pieces -->
+  <!-- King (玉) -->
+  <g transform="translate(0,0)">
+    <rect width="60" height="60" fill="#FFFACD" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="24" fill="#8B4513">玉</text>
+  </g>
+  
+  <!-- Rook (飛) -->
+  <g transform="translate(60,0)">
+    <rect width="60" height="60" fill="#FFFACD" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="24" fill="#8B4513">飛</text>
+  </g>
+  
+  <!-- Bishop (角) -->
+  <g transform="translate(120,0)">
+    <rect width="60" height="60" fill="#FFFACD" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="24" fill="#8B4513">角</text>
+  </g>
+  
+  <!-- Gold (金) -->
+  <g transform="translate(180,0)">
+    <rect width="60" height="60" fill="#FFFACD" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="24" fill="#8B4513">金</text>
+  </g>
+  
+  <!-- Silver (銀) -->
+  <g transform="translate(240,0)">
+    <rect width="60" height="60" fill="#FFFACD" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="24" fill="#8B4513">銀</text>
+  </g>
+  
+  <!-- Knight (桂) -->
+  <g transform="translate(300,0)">
+    <rect width="60" height="60" fill="#FFFACD" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="24" fill="#8B4513">桂</text>
+  </g>
+  
+  <!-- Lance (香) -->
+  <g transform="translate(360,0)">
+    <rect width="60" height="60" fill="#FFFACD" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="24" fill="#8B4513">香</text>
+  </g>
+  
+  <!-- Pawn (歩) -->
+  <g transform="translate(420,0)">
+    <rect width="60" height="60" fill="#FFFACD" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="24" fill="#8B4513">歩</text>
+  </g>
+  
+  <!-- Row 2: Promoted pieces -->
+  <!-- Promoted Rook (竜) -->
+  <g transform="translate(0,65)">
+    <rect width="60" height="60" fill="#FFFACD" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="20" fill="#8B4513">竜</text>
+  </g>
+  
+  <!-- Promoted Bishop (馬) -->
+  <g transform="translate(60,65)">
+    <rect width="60" height="60" fill="#FFFACD" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="20" fill="#8B4513">馬</text>
+  </g>
+  
+  <!-- Promoted Silver (成銀) -->
+  <g transform="translate(120,65)">
+    <rect width="60" height="60" fill="#FFFACD" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="18" fill="#8B4513">成銀</text>
+  </g>
+  
+  <!-- Promoted Knight (成桂) -->
+  <g transform="translate(180,65)">
+    <rect width="60" height="60" fill="#FFFACD" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="18" fill="#8B4513">成桂</text>
+  </g>
+  
+  <!-- Promoted Lance (成香) -->
+  <g transform="translate(240,65)">
+    <rect width="60" height="60" fill="#FFFACD" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="18" fill="#8B4513">成香</text>
+  </g>
+  
+  <!-- Promoted Pawn (と) -->
+  <g transform="translate(300,65)">
+    <rect width="60" height="60" fill="#FFFACD" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="24" fill="#8B4513">と</text>
+  </g>
+  
+  <!-- Row 3: Enemy pieces (rotated 180 degrees) -->
+  <!-- Enemy King (王) -->
+  <g transform="translate(0,130) rotate(180 30 30)">
+    <rect width="60" height="60" fill="#F0E68C" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="24" fill="#8B4513">王</text>
+  </g>
+  
+  <!-- Enemy Rook -->
+  <g transform="translate(60,130) rotate(180 30 30)">
+    <rect width="60" height="60" fill="#F0E68C" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="24" fill="#8B4513">飛</text>
+  </g>
+  
+  <!-- Enemy Bishop -->
+  <g transform="translate(120,130) rotate(180 30 30)">
+    <rect width="60" height="60" fill="#F0E68C" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="24" fill="#8B4513">角</text>
+  </g>
+  
+  <!-- Enemy Gold -->
+  <g transform="translate(180,130) rotate(180 30 30)">
+    <rect width="60" height="60" fill="#F0E68C" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="24" fill="#8B4513">金</text>
+  </g>
+  
+  <!-- Enemy Silver -->
+  <g transform="translate(240,130) rotate(180 30 30)">
+    <rect width="60" height="60" fill="#F0E68C" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="24" fill="#8B4513">銀</text>
+  </g>
+  
+  <!-- Enemy Knight -->
+  <g transform="translate(300,130) rotate(180 30 30)">
+    <rect width="60" height="60" fill="#F0E68C" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="24" fill="#8B4513">桂</text>
+  </g>
+  
+  <!-- Enemy Lance -->
+  <g transform="translate(360,130) rotate(180 30 30)">
+    <rect width="60" height="60" fill="#F0E68C" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="24" fill="#8B4513">香</text>
+  </g>
+  
+  <!-- Enemy Pawn -->
+  <g transform="translate(420,130) rotate(180 30 30)">
+    <rect width="60" height="60" fill="#F0E68C" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="24" fill="#8B4513">歩</text>
+  </g>
+  
+  <!-- Row 4: Enemy promoted pieces -->
+  <!-- Enemy Promoted Rook -->
+  <g transform="translate(0,195) rotate(180 30 30)">
+    <rect width="60" height="60" fill="#F0E68C" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="20" fill="#8B4513">竜</text>
+  </g>
+  
+  <!-- Enemy Promoted Bishop -->
+  <g transform="translate(60,195) rotate(180 30 30)">
+    <rect width="60" height="60" fill="#F0E68C" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="20" fill="#8B4513">馬</text>
+  </g>
+  
+  <!-- Enemy Promoted Silver -->
+  <g transform="translate(120,195) rotate(180 30 30)">
+    <rect width="60" height="60" fill="#F0E68C" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="18" fill="#8B4513">成銀</text>
+  </g>
+  
+  <!-- Enemy Promoted Knight -->
+  <g transform="translate(180,195) rotate(180 30 30)">
+    <rect width="60" height="60" fill="#F0E68C" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="18" fill="#8B4513">成桂</text>
+  </g>
+  
+  <!-- Enemy Promoted Lance -->
+  <g transform="translate(240,195) rotate(180 30 30)">
+    <rect width="60" height="60" fill="#F0E68C" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="18" fill="#8B4513">成香</text>
+  </g>
+  
+  <!-- Enemy Promoted Pawn -->
+  <g transform="translate(300,195) rotate(180 30 30)">
+    <rect width="60" height="60" fill="#F0E68C" stroke="#8B4513" stroke-width="2"/>
+    <text x="30" y="40" text-anchor="middle" font-family="serif" font-size="24" fill="#8B4513">と</text>
+  </g>
+</svg>

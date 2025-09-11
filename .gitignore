@@ -1,4 +1,7 @@
 
+# Build artifacts
+build/
+test_logic*
 
 #Ignore vscode AI rules
 .github/instructions/codacy.instructions.md

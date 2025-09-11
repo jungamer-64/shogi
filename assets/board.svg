@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="540" height="600" viewBox="0 0 540 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shogi board background -->
+  <rect width="540" height="600" fill="#F5DEB3" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Vertical lines -->
+  <g stroke="#8B4513" stroke-width="1" fill="none">
+    <line x1="60" y1="30" x2="60" y2="570"/>
+    <line x1="120" y1="30" x2="120" y2="570"/>
+    <line x1="180" y1="30" x2="180" y2="570"/>
+    <line x1="240" y1="30" x2="240" y2="570"/>
+    <line x1="300" y1="30" x2="300" y2="570"/>
+    <line x1="360" y1="30" x2="360" y2="570"/>
+    <line x1="420" y1="30" x2="420" y2="570"/>
+    <line x1="480" y1="30" x2="480" y2="570"/>
+  </g>
+  
+  <!-- Horizontal lines -->
+  <g stroke="#8B4513" stroke-width="1" fill="none">
+    <line x1="0" y1="90" x2="540" y2="90"/>
+    <line x1="0" y1="150" x2="540" y2="150"/>
+    <line x1="0" y1="210" x2="540" y2="210"/>
+    <line x1="0" y1="270" x2="540" y2="270"/>
+    <line x1="0" y1="330" x2="540" y2="330"/>
+    <line x1="0" y1="390" x2="540" y2="390"/>
+    <line x1="0" y1="450" x2="540" y2="450"/>
+    <line x1="0" y1="510" x2="540" y2="510"/>
+  </g>
+  
+  <!-- Promotion zone markers -->
+  <g stroke="#8B4513" stroke-width="2" fill="none" stroke-dasharray="5,5">
+    <line x1="0" y1="210" x2="540" y2="210"/>
+    <line x1="0" y1="390" x2="540" y2="390"/>
+  </g>
+</svg>
